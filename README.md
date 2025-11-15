@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Requirements tools
+- docker
+- ubuntu
+
+# Run Project with docker
+-  sudo docker compose up -d 
+- cp .env.example .env
+- sudo docker compose exec logistic_app php artisan optimize:clear
+-  sudo docker compose exec logistic_app php artisan migrate
+- composer du
+- http://your_local_ip:8000
+
+### Run tests
+- sudo docker compose exec logistic_app php artisan test
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
