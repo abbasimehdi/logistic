@@ -19,8 +19,8 @@
 - composer du
 - http://your_local_ip:8000
 
-### Run tests
-- sudo docker compose exec logistic_app php artisan test
+# documentation
+postman collection is on Documentation/Collection
 
 ## About Laravel
 
