@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Domain\Vehicle\src\Resources;
+namespace Logistic\Modules\Domain\Vehicle\src\Resources;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;

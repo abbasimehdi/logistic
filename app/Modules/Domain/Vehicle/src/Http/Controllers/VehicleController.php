@@ -4,8 +4,8 @@ namespace Logistic\Modules\Domain\Vehicle\src\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Modules\Domain\Vehicle\src\Http\Requests\VehicleStoreRequest;
-use App\Modules\Domain\Vehicle\src\Resources\VehicleCollection;
 use Illuminate\Http\JsonResponse;
+use Logistic\Modules\Domain\Vehicle\src\Resources\VehicleCollection;
 use Logistic\Modules\Domain\Vehicle\src\Resources\VehicleResource;
 use Logistic\Modules\Domain\Vehicle\src\Services\VehicleService;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
